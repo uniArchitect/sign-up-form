@@ -5,8 +5,12 @@
 .cover-image {
     display: flex;
     height: 100vh;
-    width: 100vh;
-    background-color: #c9aa88;
+    width: auto;
+}
+
+img {
+    width: auto;
+    height: auto;
 }
 
 .sign-up-form {
@@ -26,7 +30,8 @@
 }
 
 .button {
-
+    position: relative;
+    top: 250px;
 }
 
 ul {
