@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .form-page {
     display: flex;
 }
@@ -16,6 +18,7 @@ img {
 .sign-up-form {
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .signup-field-background {
