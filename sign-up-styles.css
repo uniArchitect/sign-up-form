@@ -14,10 +14,22 @@
     flex-direction: column;
 }
 
+.middle-field {
+    position: relative;
+    top: 200px;
+}
+
+.button {
+    position: relative;
+    top: 200px;
+}
+
 ul {
     list-style: none;
 }
 
 li {
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
