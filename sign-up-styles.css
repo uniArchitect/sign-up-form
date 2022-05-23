@@ -15,26 +15,37 @@ img {
     height: auto;
 }
 
+.header-text, .login-link {
+    padding: 25px;
+}
+
 .sign-up-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .signup-field-background {
-    position: relative;
-    top: 200px;
+    /* position: relative;
+    top: 200px; */
     padding: 25px;
-    background-color: gray;
 }
 
 .signup-field {
     display: flex;
 }
 
+.signup-left {
+    padding: 0px;
+}
+
 .button {
-    position: relative;
-    top: 250px;
+    /* position: relative;
+    top: 250px; */
+    left: 25px;
+    padding: 25px;
+    width: 100px;
 }
 
 ul {
