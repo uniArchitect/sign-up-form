@@ -66,13 +66,19 @@ label {
 }
 
 input {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 15px;
     padding: 5px;
     height: 20px;
     width: 250px;
     border-radius: 5px;
-    border-width: 1px;
-    border-color: lightgray;
+    border-color: #d3d3d3;
+    transition: .3s;
+}
+
+input:hover {
+    transition: .3s;
+    border-color: black;
 }
 
 ul {
