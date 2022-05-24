@@ -16,7 +16,9 @@ img {
 }
 
 .header-text, .login-link {
-    padding: 25px;
+    padding-left: 40px;
+    padding-right: 120px;
+    padding-bottom: 20px;
 }
 
 .sign-up-form {
@@ -29,7 +31,7 @@ img {
 .signup-field-background {
     /* position: relative;
     top: 200px; */
-    padding: 25px;
+    padding-left: 40px;
 }
 
 .signup-field {
@@ -44,7 +46,7 @@ img {
     /* position: relative;
     top: 250px; */
     left: 25px;
-    padding: 25px;
+    padding: 40px;
     padding-top: 0px;
     width: 100px;
 }
