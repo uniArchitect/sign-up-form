@@ -40,12 +40,25 @@ img {
     padding: 0px;
 }
 
-.button {
+.signup-button {
     /* position: relative;
     top: 250px; */
     left: 25px;
     padding: 25px;
     width: 100px;
+}
+
+button {
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 ul {
