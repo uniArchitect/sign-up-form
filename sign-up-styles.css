@@ -45,18 +45,27 @@ img {
     top: 250px; */
     left: 25px;
     padding: 25px;
+    padding-top: 0px;
     width: 100px;
 }
 
 button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00b3a8;
     padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    font-size: small;
 }
 
 input {
     margin-bottom: 15px;
     padding: 5px;
     width: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-width: 1px;
     border-color: lightgray;
 }
