@@ -51,6 +51,7 @@ img {
 
 button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     background-color: #00b3a8;
     padding: 10px;
     border-radius: 10px;
@@ -59,13 +60,15 @@ button {
 
 label {
     font-size: small;
+    font-weight: bold;
 }
 
 input {
     margin-bottom: 15px;
     padding: 5px;
+    height: 20px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-width: 1px;
     border-color: lightgray;
 }
