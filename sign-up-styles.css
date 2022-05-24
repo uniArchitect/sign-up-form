@@ -54,10 +54,22 @@ img {
 button {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    color: white;
     background-color: #00b3a8;
     padding: 10px;
     border-radius: 10px;
     border: none;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+
+button:hover {
+    transition: .3s;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 label {
@@ -72,13 +84,14 @@ input {
     height: 20px;
     width: 250px;
     border-radius: 5px;
+    border: 1px solid;
     border-color: #d3d3d3;
     transition: .3s;
 }
 
 input:hover {
     transition: .3s;
-    border-color: black;
+    border-color: #aaa;
 }
 
 ul {
