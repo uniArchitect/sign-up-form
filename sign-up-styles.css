@@ -21,13 +21,32 @@ img {
 
 .header-text, .existing-account {
     padding-left: 40px;
-    padding-right: 120px;
+    padding-right: 160px;
     padding-bottom: 20px;
+    font-size: larger;
+}
+
+.existing-account {
+    font-size: medium;
+}
+
+.highlight-text {
+    color: #FA6900;
 }
 
 .login-link {
     font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.login-link:hover {
     color: #FA6900;
+    text-decoration: none;
 }
 
 .sign-up-form {
@@ -106,7 +125,7 @@ input:hover {
 
 input:focus {
     outline: none;
-    border: 1px solid;
+    border: 1px solid #FA6900;
 }
 
 ul {
