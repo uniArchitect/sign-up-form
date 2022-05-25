@@ -21,6 +21,13 @@ img {
     height: auto;
 }
 
+.header-text-1 {
+    padding-left: 40px;
+    padding-right: 160px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
 .header-text, .existing-account {
     padding-left: 40px;
     padding-right: 160px;
