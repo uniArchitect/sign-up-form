@@ -65,7 +65,8 @@ button {
 
 button:hover {
     transition: .3s;
-    transform: translateY(-2px);
+    background-color: white;
+    color: black;
 }
 
 button:active {
@@ -92,6 +93,11 @@ input {
 input:hover {
     transition: .3s;
     border-color: #aaa;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid;
 }
 
 ul {
